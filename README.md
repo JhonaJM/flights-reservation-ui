@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+# Flights-Reservation-UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado en React, Redux, TypeScript y Vite.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sistema UI para realizar reservas aéreas, desde la búsqueda de vuelos disponibles hasta la realización de pagos, conectado a un sistema backend en NestJS.
 
-## Expanding the ESLint configuration
+## Arquitectura
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Tecnologías
 
-- Configure the top-level `parserOptions` property like this:
+Este proyecto fue construido usando las siguientes tecnologías:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- [React](https://reactjs.org/): Biblioteca de JavaScript ampliamente adoptada para construir interfaces de usuario. Enfocada en la reutilización de componentes, permite una fácil gestión y escalabilidad en una aplicación.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [TypeScript](https://www.typescriptlang.org/): Lenguaje tipado que mejora la calidad de programación en comparación con JavaScript. Ayuda a la detección de errores, reduce el tiempo de ejecución y aumenta la productividad.
+
+- [Redux Toolkit](https://redux-toolkit.js.org/): Biblioteca que maneja el estado global de la aplicación mediante una configuración optimizada y limpia, mejorando la mantenibilidad del código y facilitando la implementación de características como la sincronización de datos en tiempo real.
+
+- [Vite](https://vitejs.dev/): Herramienta de construcción rápida. Vite optimiza el tiempo de compilación y mejora la productividad del desarrollo.
+[![Arquitectura REact Redux](https://i.postimg.cc/YS53DnWY/Actions.png "Arquitectura REact Redux")](https://i.postimg.cc/YS53DnWY/Actions.png "Arquitectura REact Redux")
+## Instalación
+
+Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
+
+1. Clona el repositorio:
+
+   git clone https://github.com/JhonaJM/flights-reservation-ui
