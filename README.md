@@ -27,3 +27,9 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 1. Clona el repositorio:
 
    git clone https://github.com/JhonaJM/flights-reservation-ui
+   
+   Navega al directorio del proyecto  `cd flights-reservation-ui`
+  
+   Instala las dependencias:` npm install`
+   
+   Iniciar en modo desarrollo `npm run dev`
