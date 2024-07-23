@@ -19,7 +19,7 @@ Este proyecto fue construido usando las siguientes tecnologías:
 - [Redux Toolkit](https://redux-toolkit.js.org/): Biblioteca que maneja el estado global de la aplicación mediante una configuración optimizada y limpia, mejorando la mantenibilidad del código y facilitando la implementación de características como la sincronización de datos en tiempo real.
 
 - [Vite](https://vitejs.dev/): Herramienta de construcción rápida. Vite optimiza el tiempo de compilación y mejora la productividad del desarrollo.
-[![Arquitectura REact Redux](https://i.postimg.cc/YS53DnWY/Actions.png "Arquitectura REact Redux")](https://i.postimg.cc/YS53DnWY/Actions.png "Arquitectura REact Redux")
+[![Arquitectura REact Redux](https://i.postimg.cc/YS53DnWY/Actions.png "Arquitectura REact Redux")](https://i.ibb.co/gj5bCzc/Actions-1.png "Arquitectura REact Redux")
 ## Instalación
 
 Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
