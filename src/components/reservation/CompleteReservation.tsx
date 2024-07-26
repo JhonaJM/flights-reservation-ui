@@ -85,27 +85,14 @@ const CompleteReservation = () => {
                                                 <span className='fw-bold fs-2 text-muted'>{segment.departureCity}</span>
                                             </Col>
                                             <Col xs={4}>
-                                                <span className='text-muted align-items-center'>Duración total 2h 10m</span>
+                                                <img src={`https://storage.googleapis.com/gcp-production-cdn/cms/images/mobile/airlines/icon-${segment.airlineCode}.png`} alt="" /><br />
+                                                <span className='text-muted '>{segment.airlineCode}</span>
                                             </Col>
                                             <Col xs={4}>
                                                 <span className='fw-bold fs-2 text-muted'>{segment.arrivalCity}</span>
                                             </Col>
                                         </Row>
-                                        <div className='dashed-line'></div>
-                                        <Row className='align-items-center text-center'>
-                                            <Col xs={4}>
-                                                <span className='fw-bold fs-2 text-muted'>{segment.departureHour}</span><br />
-                                                <span className='text-muted '>{moment(segment.dateFlight).format('YYYY-MM-DD') }</span>                                                                
-                                            </Col>
-                                            <Col xs={4}>
-                                                <img src={`https://storage.googleapis.com/gcp-production-cdn/cms/images/mobile/airlines/icon-${segment.airlineCode}.png`} alt="" /><br />
-                                                <span className='text-muted '>{segment.airlineCode}</span>   
-                                            </Col>
-                                            <Col xs={4}>
-                                                <span className='fw-bold fs-2 text-muted'>{segment.arrivalHour}</span><br />
-                                                <span className='text-muted '>{moment(segment.dateFlight).format('YYYY-MM-DD') }</span>   
-                                            </Col>
-                                        </Row>
+                                        
                                     </Card.Body>                    
                                 </Card>
                             </Col>

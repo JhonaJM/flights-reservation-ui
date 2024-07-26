@@ -240,10 +240,10 @@ export const Availabilty = () => {
                                                                     </Col>
                                                                 </Row>
                                                             </Accordion.Header>
-                                                            <Accordion.Body>
+                                                            {/* <Accordion.Body>
                                                                 <Col>a</Col>
                                                                 <Col>f</Col>
-                                                            </Accordion.Body>
+                                                            </Accordion.Body> */}
                                                         </Accordion.Item>
                                                     </Accordion>
                                                 ))

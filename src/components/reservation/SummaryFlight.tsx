@@ -113,7 +113,7 @@ const SummaryFlight = () => {
                                             </Col>
 
                                             <Col xs={3} className='text-start'>
-                                                <span className='fw-bold fs-6 text-muted text-end col-6'>{segmentsFounded.reduce((total, segment) => total + segment.price, 0)}</span>
+                                                <span className='fw-bold fs-6 text-muted text-end col-6'>{(segmentsFounded.reduce((total, segment) => total + segment.price, 0)).toFixed(2)}</span>
                                             </Col>
                                         </Row>
                                     </Col>
@@ -131,7 +131,7 @@ const SummaryFlight = () => {
                                             </Col>
 
                                             <Col xs={3} className='text-start'>
-                                                <span className='fw-bold fs-6 text-muted text-end col-6'>0.00</span>
+                                                <span className='fw-bold fs-6 text-muted text-end col-6'>&nbsp;&nbsp;&nbsp;   0.00</span>
                                             </Col>
                                         </Row>
                                     </Col>
@@ -140,14 +140,14 @@ const SummaryFlight = () => {
                             <Card.Footer>
                                 <Row>
                                     <Col xs={6} className='text-start'>
-                                        <span className='fw-bold fs-5  text-end col-6 color-custom'>Monto Vuelos</span>
+                                        <span className='fw-bold fs-6  text-end col-6 color-custom'>Monto Vuelos</span>
                                     </Col>
                                     <Col xs={3} className='text-end'>
-                                        <span className='fw-bold fs-5  text-end col-6 color-custom'>USD</span>
+                                        <span className='fw-bold fs-6  text-end col-6 color-custom'>USD</span>
                                     </Col>
 
                                     <Col xs={3} className='text-start'>
-                                        <span className='fw-bold fs-5  text-end col-6 color-custom'>{segmentsFounded.reduce((total, segment) => total + segment.price, 0)}</span>
+                                        <span className='fw-bold fs-6  text-end col-6 color-custom'>{(segmentsFounded.reduce((total, segment) => total + segment.price, 0)).toFixed(2)}</span>
                                     </Col>
                                 </Row>
                             </Card.Footer>
@@ -161,21 +161,21 @@ const SummaryFlight = () => {
                                     </Col>
 
                                     <Col xs={3} className='text-start'>
-                                        <span className='fw-bold fs-6  text-end col-6 color-custom' style={{ marginLeft: '50px' }}>{pax}</span>
+                                        <span className='fw-bold fs-6  text-end col-6 color-custom' style={{ marginLeft: '40px' }}>{pax}</span>
                                     </Col>
                                 </Row>
                             </Card.Footer>
                             <Card.Footer>
                                 <Row>
                                     <Col xs={6} className='text-start'>
-                                        <span className='fw-bold fs-5 text-danger  text-end col-6 color-custom'>Total</span>
+                                        <span className='fw-bold fs-6 text-danger  text-end col-6 color-custom'>Total</span>
                                     </Col>
                                     <Col xs={3} className='text-end'>
-                                        <span className='fw-bold fs-5 text-danger  text-end col-6 color-custom'>USD</span>
+                                        <span className='fw-bold fs-6 text-danger  text-end col-6 color-custom'>USD</span>
                                     </Col>
 
                                     <Col xs={3} className='text-start'>
-                                        <span className='fw-bold fs-5 text-danger  text-end col-6 color-custom'>{pax * segmentsFounded.reduce((total, segment) => total + segment.price, 0)}</span>
+                                        <span className='fw-bold fs-6 text-danger  text-end col-6 color-custom'>{(pax * segmentsFounded.reduce((total, segment) => total + segment.price, 0)).toFixed(2)}</span>
                                     </Col>
                                 </Row>
                             </Card.Footer>
